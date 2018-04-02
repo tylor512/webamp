@@ -15,8 +15,8 @@ const defaultWindowsState = {
   focused: WINDOWS.MAIN,
   equalizer: true,
   playlist: true,
-  // openGenWindows: ["AVS_WINDOW"]
-  openGenWindows: [],
+  openGenWindows: ["AVS_WINDOW"],
+
   positions: {}
 };
 

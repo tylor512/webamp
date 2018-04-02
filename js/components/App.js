@@ -37,7 +37,7 @@ const App = ({
   GEN_WINDOWS.forEach((windowId, i) => {
     const Component = genWindowMap[windowId];
     windows[`genWindow${i}`] = openWindows.has(windowId) && (
-      <Component key={i} />
+      <Component key={i} mediaPlayer={media} />
     );
   });
   return (
